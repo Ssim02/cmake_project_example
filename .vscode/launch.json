@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run cmake_project_example",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/cmake_project_example.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/build/Debug",
+            "console": "internalConsole",
+            "preLaunchTask": "CMake: build"
+        }
+    ]
+}
